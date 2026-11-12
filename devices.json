@@ -1,0 +1,18 @@
+{
+  "R1": {
+    "host": "192.168.200.132",
+    "port": 22,
+    "interfaces": {
+      "lan": "FastEthernet1/1",
+      "wan": "FastEthernet1/0"
+    }
+  },
+  "R2": {
+    "host": "192.168.200.133",
+    "port": 22,
+    "interfaces": {
+      "wan": "FastEthernet1/0",
+      "lan": "FastEthernet1/1"
+    }
+  }
+}
